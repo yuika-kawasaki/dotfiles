@@ -1,0 +1,11 @@
+altscreen on
+defutf8 on
+defencoding utf8
+encoding utf-8 utf-8
+autodetach on
+escape ^Zz
+# hardstatus and caption
+hardstatus on
+hardstatus alwayslastline '%{= .b}%H%{-} %L=%-w%45L>%{=u b.}%n %t%{-}%+w %-17<%=%m/%d %02c:%s'
+caption always '%?%F%{= bw}%:%{= wk}%?%2n%f%07=%t%='
+sorendition '+r .b'
